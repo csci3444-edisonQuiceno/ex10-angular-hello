@@ -2,6 +2,27 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.5.
 
+## Setup from scratch - ilker added
++ make sure angular CLI is installed globally, if not install it
+```
+ng -v
+npm install -g @angular/cli
+```
++ create the app shell via CLI, takes a minute or so
+```
+cd /c/fdu/csci3444/projects
+ng new ex10-angular-hello
+```
++ can immediately start running it (CLI uses Webpack as build tool)
+```
+ng serve
+```
++ can immediately access above started app (by default it uses port 4200) with browser
+```
+http://locahost:42000
+```
++ to stop webpack started above, in Terminal enter, Ctrl + C
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
